@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    width: 400px;
+    background-color: rgba(92, 163, 218, 0.2);
+    padding: 10px;
+    margin: 0 auto;
+    border: solid 0.5px rgba(70, 131, 180, 0.717);
+    border-radius: 10px;
+}
+
+.card__title{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.figure{
+    width: 100%;
+}
+
+.figure__img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card__paragrath{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgba(70, 131, 180, 0.717);
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    transform: translate(150px);
+}
+
+.btn--border{
+    border-radius: 10px;
+}
+.btn--center{
+
+}
